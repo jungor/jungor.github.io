@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="theme-next use-motion theme-next-mist">
+<html class="theme-next use-motion ">
 <head>
   
 
@@ -12,6 +12,8 @@
 <meta http-equiv="Cache-Control" content="no-siteapp" />
 
 
+  <meta name="google-site-verification" content="VvyjvVXcJQa0QklHipu6pwm2PJGnnchIqX7s5JbbT_0" />
+
 
 
 
@@ -19,8 +21,6 @@
   <link rel="stylesheet" type="text/css" href="/vendors/fancybox/source/jquery.fancybox.css?v=2.1.5"/>
 
 
-
-  <link href='//fonts.googleapis.com/css?family=Lato:300,400,700,400italic&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 
 
 <link rel="stylesheet" type="text/css" href="/css/main.css?v=0.4.5.1"/>
@@ -52,7 +52,7 @@
 
 <script type="text/javascript" id="hexo.configuration">
   var CONFIG = {
-    scheme: 'Mist',
+    scheme: '',
     sidebar: 'post'
   };
 </script>
@@ -60,7 +60,7 @@
   <title> Jun_Gor </title>
 </head>
 
-<body itemscope itemtype="http://schema.org/WebPage" lang="zh-cn">
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
 
   <!--[if lte IE 8]>
   <div style=' clear: both; height: 59px; padding:0 0 0 15px; position: relative;margin:0 auto;'>
@@ -104,21 +104,13 @@
   
 
   
-    <ul id="menu" class="menu ">
+    <ul id="menu" class="menu menu-left">
       
         
         <li class="menu-item menu-item-home">
           <a href="/" rel="section">
             <i class="menu-item-icon icon-next-home"></i> <br />
-            首頁
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-archives">
-          <a href="/archives" rel="section">
-            <i class="menu-item-icon icon-next-archives"></i> <br />
-            歸檔
+            首页
           </a>
         </li>
       
@@ -126,16 +118,64 @@
         <li class="menu-item menu-item-tags">
           <a href="/tags" rel="section">
             <i class="menu-item-icon icon-next-tags"></i> <br />
-            標籤
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories" rel="section">
+            <i class="menu-item-icon icon-next-categories"></i> <br />
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives" rel="section">
+            <i class="menu-item-icon icon-next-archives"></i> <br />
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about" rel="section">
+            <i class="menu-item-icon icon-next-about"></i> <br />
+            关于
           </a>
         </li>
       
 
       
       
+        <li class="menu-item menu-item-search">
+          <a href="#" class="st-search-show-outputs">
+            <i class="menu-item-icon icon-next-search"></i> <br />
+            搜索
+          </a>
+        </li>
+      
     </ul>
   
 
+  
+    <div class="site-search">
+      
+  
+
+<script type="text/javascript">
+  (function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
+    (w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t);
+    e=d.getElementsByTagName(t)[0];s.async=1;s.src=u;e.parentNode.insertBefore(s,e);
+  })(window,document,'script','//s.swiftypecdn.com/install/v2/st.js','_st');
+
+  _st('install', 'MJwzC4YaEeQuXJQ6Le9t','2.0.0');
+</script>
+
+
+
+    </div>
   
 </nav>
 
@@ -168,7 +208,7 @@
 
       <div class="post-meta">
         <span class="post-time">
-          發表於
+          发表于
           <time itemprop="dateCreated" datetime="2015-08-04T03:11:38+08:00" content="2015-08-04">
             2015-08-04
           </time>
@@ -177,6 +217,13 @@
         
 
         
+          
+            <span class="post-comments-count">
+              &nbsp; | &nbsp;
+              <a href="/2015/08/04/hexo搭建博客/#comments" itemprop="discussionUrl">
+                <span class="post-comments-count ds-thread-count" data-thread-key="2015/08/04/hexo搭建博客/" itemprop="commentsCount"></span>
+              </a>
+            </span>
           
         
       </div>
@@ -189,17 +236,18 @@
 
       
         
-          <span itemprop="articleBody"><p><strong>在看下面官方方法之前请先看这篇<a href="http://jingyan.baidu.com/article/d8072ac47aca0fec95cefd2d.html" target="_blank" rel="external">百度经验</a>，本人亲测成功</strong></p>
-<p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is my very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info.</p>
-<h2 id="Quick_Start">Quick Start</h2><h3 id="Create_a_new_post">Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run_server">Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate_static_files">Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy_to_remote_sites">Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-</span>
+          <span itemprop="articleBody">
+            
+            在看下面官方方法之前请先看这篇百度经验，本人亲测成功
+Welcome to Hexo! This is my very first post. Check documentation for more info.
+Quick StartCreate a new post1$ hexo new "My
+            ...
+          </span>
+          <div class="post-more-link text-center">
+            <a class="btn" href="/2015/08/04/hexo搭建博客/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
         
       
     </div>
@@ -239,7 +287,7 @@
 
       <div class="post-meta">
         <span class="post-time">
-          發表於
+          发表于
           <time itemprop="dateCreated" datetime="2015-08-04T01:48:35+08:00" content="2015-08-04">
             2015-08-04
           </time>
@@ -248,6 +296,13 @@
         
 
         
+          
+            <span class="post-comments-count">
+              &nbsp; | &nbsp;
+              <a href="/2015/08/04/pubsub原生实现/#comments" itemprop="discussionUrl">
+                <span class="post-comments-count ds-thread-count" data-thread-key="2015/08/04/pubsub原生实现/" itemprop="commentsCount"></span>
+              </a>
+            </span>
           
         
       </div>
@@ -260,14 +315,18 @@
 
       
         
-          <span itemprop="articleBody"><p>PubSub 模式的实现如此简单，以至于用十几行代码就能建立自己的<br>PubSub 实现。对于支持的每种事件类型，唯一需要存储的状态值就<br>是一个事件处理器清单。</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> PubSub = &#123;handlers: &#123;&#125;&#125;</span><br></pre></td></tr></table></figure>
-<p>需要添加事件监听器时，只要将监听器推入数组末尾即可（这意味着<br>总是会按照添加监听器的次序来调用监听器） 。</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">PubSub.on = <span class="function"><span class="keyword">function</span>(<span class="params">eventType, handler</span>) </span>&#123;</span><br><span class="line">    <span class="keyword">if</span> (!(eventType <span class="keyword">in</span> <span class="keyword">this</span>.handlers)) &#123;</span><br><span class="line">        <span class="keyword">this</span>.handlers[eventType] = [];</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">this</span>.handlers[eventType].push(handler);</span><br><span class="line">    <span class="keyword">return</span> <span class="keyword">this</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>接着，等到触发事件的时候，再循环遍历所有的事件处理器。</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">PubSub.emit = <span class="function"><span class="keyword">function</span>(<span class="params">eventType</span>) </span>&#123;</span><br><span class="line">    <span class="keyword">var</span> handlerArgs = <span class="built_in">Array</span>.prototype.slice.call(<span class="built_in">arguments</span>, <span class="number">1</span>);</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">var</span> i = <span class="number">0</span>; i &lt; <span class="keyword">this</span>.handlers[eventType].length; i++) &#123;</span><br><span class="line">        <span class="keyword">this</span>.handlers[eventType][i].apply(<span class="keyword">this</span>, handlerArgs);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="keyword">this</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p><strong>PS：这里只实现了注册事件功能，没有删除事件等功能</strong></p>
-</span>
+          <span itemprop="articleBody">
+            
+            PubSub 模式的实现如此简单，以至于用十几行代码就能建立自己的PubSub 实现。对于支持的每种事件类型，唯一需要存储的状态值就是一个事件处理器清单。
+1var PubSub = &#123;handlers: &#123;&#125;&#125;
+需要添加事件监听器时，只要将监听器推入数组末尾
+            ...
+          </span>
+          <div class="post-more-link text-center">
+            <a class="btn" href="/2015/08/04/pubsub原生实现/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
         
       
     </div>
@@ -321,21 +380,21 @@
           <div class="site-state-item site-state-posts">
             <a href="/archives">
               <span class="site-state-item-count">2</span>
-              <span class="site-state-item-name">文章</span>
+              <span class="site-state-item-name">日志</span>
             </a>
           </div>
 
           <div class="site-state-item site-state-categories">
-            
+            <a href="/categories">
               <span class="site-state-item-count">0</span>
-              <span class="site-state-item-name">分類</span>
-              
+              <span class="site-state-item-name">分类</span>
+              </a>
           </div>
 
           <div class="site-state-item site-state-tags">
             <a href="/tags">
               <span class="site-state-item-count">1</span>
-              <span class="site-state-item-name">標籤</span>
+              <span class="site-state-item-name">标签</span>
               </a>
           </div>
 
@@ -345,9 +404,21 @@
 
         <div class="links-of-author motion-element">
           
+            
+              <span class="links-of-author-item">
+                <a href="https://github.com/jungor" target="_blank">GitHub</a>
+              </span>
+            
+          
         </div>
 
         
+        
+          <div class="cc-license motion-element" itemprop="license">
+            <a href="http://creativecommons.org/licenses/by-nc-sa/4.0" class="cc-opacity" target="_blank">
+              <img src="/images/cc-by-nc-sa.svg" alt="Creative Commons" />
+            </a>
+          </div>
         
 
         <div class="links-of-author motion-element">
@@ -376,13 +447,13 @@
 </div>
 
 <div class="powered-by">
-  由 <a class="theme-link" href="http://hexo.io">Hexo</a> 強力驅動
+  由 <a class="theme-link" href="http://hexo.io">Hexo</a> 强力驱动
 </div>
 
 <div class="theme-info">
-  主題 -
+  主题 -
   <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
-    NexT.Mist
+    NexT
   </a>
 </div>
 
@@ -399,11 +470,29 @@
   
   
   
+
+  
+    
+  
+
+  <script type="text/javascript">
+    var duoshuoQuery = {short_name:"Jun"};
+    (function() {
+      var ds = document.createElement('script');
+      ds.type = 'text/javascript';ds.async = true;
+      ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+      ds.charset = 'UTF-8';
+      (document.getElementsByTagName('head')[0]
+      || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+  </script>
+    
+     
+  	<script src="/js/ua-parser.min.js"></script>
+  	<script src="/js/hook-duoshuo.js"></script>
   
 
   
-
-
 
   
   <script type="text/javascript" src="/vendors/fancybox/source/jquery.fancybox.pack.js"></script>
@@ -436,11 +525,29 @@
 
   
   
+
+  
+    
+  
+
+  <script type="text/javascript">
+    var duoshuoQuery = {short_name:"Jun"};
+    (function() {
+      var ds = document.createElement('script');
+      ds.type = 'text/javascript';ds.async = true;
+      ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+      ds.charset = 'UTF-8';
+      (document.getElementsByTagName('head')[0]
+      || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+  </script>
+    
+     
+  	<script src="/js/ua-parser.min.js"></script>
+  	<script src="/js/hook-duoshuo.js"></script>
   
 
   
-
-
 
   
 
